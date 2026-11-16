@@ -1,0 +1,40 @@
+ELEVATE30 TRANSFORMATIE CHALLENGE – WEBSITE
+===========================================
+
+Wat zit er in deze map?
+- index.html       de challenge-pagina (Nederlands + Engels, knop NL/EN rechtsboven)
+- spelregels.html  de volledige spelregels (Nederlands + Engels)
+- styles.css       de vormgeving
+- script.js        countdown, prijswissel, taalknop en de Stripe-links
+- img/             de foto's (Virgil, Joyce, Rianne, Wesley)
+
+Upload ALLES (ook de map img) naar GitHub. Dit bestand mag je meeuploaden of weglaten.
+
+
+STRIPE-LINKS TOEVOEGEN (als je ze hebt)
+---------------------------------------
+1. Open script.js (op GitHub: klik op het bestand en dan op het potloodje om te bewerken).
+2. Bovenaan staan deze twee regels:
+     stripeEarlyBird: "",
+     stripeRegular: "",
+3. Plak je betaallinks tussen de aanhalingstekens, bijvoorbeeld:
+     stripeEarlyBird: "https://buy.stripe.com/abc123",
+     stripeRegular: "https://buy.stripe.com/xyz789",
+4. Klik op "Commit changes". Vercel zet de wijziging binnen een minuut live.
+
+Zolang er geen link staat, laten de knoppen de melding "Inschrijven opent binnenkort!" zien.
+
+
+WAT GAAT AUTOMATISCH
+--------------------
+- Op 30 november om 23:59 wisselt de pagina vanzelf van €99 naar €149:
+  de early-bird-teksten verdwijnen, de knoppen gebruiken dan de €149-link
+  en de countdown telt af naar de start op 4 januari.
+- "Schrijf je vandaag in = nog X weken" rekent zichzelf elke dag uit.
+- Engelse link delen? Gebruik: jouwdomein.nl/?lang=en
+
+
+FOTO'S VERVANGEN
+----------------
+Zet een nieuwe foto in de map img met precies dezelfde naam (bijv. joyce.webp)
+en upload hem opnieuw. Liefst vierkant, ongeveer 900 x 900 pixels.
